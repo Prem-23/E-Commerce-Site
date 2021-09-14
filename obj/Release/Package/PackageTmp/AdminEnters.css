@@ -1,0 +1,56 @@
+﻿.sec
+{
+    background-color:#ececec;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.h3{
+    margin-top: 40px;
+    text-align:center;
+}
+.newProduct{
+    width:350px;
+    height: 500px;
+    margin:auto;
+    display:flex;
+    align-items:flex-start;
+    padding:40px;
+    justify-content:center;
+    flex-direction:column;
+    background-color: #262626;
+}
+h4{
+    color: #ececec;
+    font-weight:300;
+    margin: 10px 0;
+}
+.textlog{
+    width:260px;
+    padding: 3px 5px;
+    font-weight:700;
+}
+.img{
+    color: #ececec;
+    cursor:pointer;
+}
+.btn {
+    width:100%;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addPro{
+    padding: 7px 20px;
+    cursor:pointer;
+    background-color: royalblue;
+    color: white;
+    text-transform: uppercase;
+}
+.cat{
+    text-transform:uppercase;
+}

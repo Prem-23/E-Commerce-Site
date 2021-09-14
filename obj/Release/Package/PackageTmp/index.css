@@ -1,0 +1,125 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position:fixed;
+    width:100%;
+    height:50px;
+    background-color: white;
+    z-index: 100;
+}
+.nav{
+    width:90%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:auto;
+    height:100%;    
+}
+.nav h3 a{
+    cursor:pointer;
+    color: black;
+}
+.nav span{
+    color: royalblue;
+}
+.header-right{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.user{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.log{
+    margin: 0 15px;
+}
+.userName a{
+    font-size:17px;
+    margin: 0 50px 0 10px;
+    font-weight: 600;
+    color:black;
+    cursor:pointer;
+}
+.carts a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.carts{
+    margin-left: 10px;
+}
+.cart{
+    color: blue;
+    font-size: 25px;
+    margin-right: 10px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color:#262626;
+}
+footer div{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+footer div h1{
+    color: #ececec;
+}
+footer div h2{
+    color: #acacac;
+}
+.userCont{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.greet{
+    font-size: 15px;
+    display:flex;
+    margin-right:13px;
+    align-items:baseline;
+}
+.userNme {
+    font-weight: 900;
+    cursor: pointer;
+}
+.reg {
+    padding: 4px 15px;
+    background-color: royalblue;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 15px;
+}
+.login {
+    padding: 4px 15px;
+    border: 1px solid royalblue;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.out {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    border:1px solid blue;
+    padding: 4px 15px;
+}

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\Web Publish\E-Commerce Online</_PublishTargetUrl>
+    <History>True|2021-09-05T09:26:41.8413855Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdminDelete.aspx">
+      <publishTime>08/30/2021 09:53:13</publishTime>
+    </File>
+    <File Include="AdminEnters.aspx">
+      <publishTime>08/31/2021 08:57:37</publishTime>
+    </File>
+    <File Include="AdminEnters.css">
+      <publishTime>08/30/2021 15:35:24</publishTime>
+    </File>
+    <File Include="AdminIndex.css">
+      <publishTime>09/01/2021 22:10:14</publishTime>
+    </File>
+    <File Include="AdminIndex.Master">
+      <publishTime>09/01/2021 21:51:09</publishTime>
+    </File>
+    <File Include="AdminLogin.aspx">
+      <publishTime>08/30/2021 12:38:12</publishTime>
+    </File>
+    <File Include="AdminLogin.css">
+      <publishTime>08/28/2021 19:47:38</publishTime>
+    </File>
+    <File Include="AdminOverAllCart.aspx">
+      <publishTime>09/01/2021 22:08:49</publishTime>
+    </File>
+    <File Include="AdminOverAllData.aspx">
+      <publishTime>09/01/2021 19:14:05</publishTime>
+    </File>
+    <File Include="AdminOverAllUsersdata.aspx">
+      <publishTime>08/31/2021 19:11:38</publishTime>
+    </File>
+    <File Include="AdminUpdate.aspx">
+      <publishTime>08/30/2021 20:31:29</publishTime>
+    </File>
+    <File Include="bin/DataAccess.dll">
+      <publishTime>05/19/2013 14:08:16</publishTime>
+    </File>
+    <File Include="bin/E-Commerce Site.dll">
+      <publishTime>09/05/2021 14:56:38</publishTime>
+    </File>
+    <File Include="bin/E-Commerce Site.pdb">
+      <publishTime>09/05/2021 14:56:38</publishTime>
+    </File>
+    <File Include="Cart.aspx">
+      <publishTime>09/01/2021 21:36:33</publishTime>
+    </File>
+    <File Include="Cart.css">
+      <publishTime>09/01/2021 14:44:24</publishTime>
+    </File>
+    <File Include="DeleteItem.aspx">
+      <publishTime>09/02/2021 09:38:06</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>09/05/2021 08:32:39</publishTime>
+    </File>
+    <File Include="Home.css">
+      <publishTime>08/31/2021 11:50:38</publishTime>
+    </File>
+    <File Include="imgs/%24R03UNL5.jpg">
+      <publishTime>08/30/2021 18:51:44</publishTime>
+    </File>
+    <File Include="imgs/%24R5OD9BU.jpg">
+      <publishTime>08/30/2021 18:51:44</publishTime>
+    </File>
+    <File Include="index.css">
+      <publishTime>09/02/2021 11:27:52</publishTime>
+    </File>
+    <File Include="index.Master">
+      <publishTime>09/02/2021 14:22:09</publishTime>
+    </File>
+    <File Include="Laptop.aspx">
+      <publishTime>09/01/2021 19:22:44</publishTime>
+    </File>
+    <File Include="LoginPage.aspx">
+      <publishTime>08/30/2021 12:36:50</publishTime>
+    </File>
+    <File Include="LoginPage.css">
+      <publishTime>08/28/2021 19:44:55</publishTime>
+    </File>
+    <File Include="Mobile.aspx">
+      <publishTime>09/01/2021 19:22:33</publishTime>
+    </File>
+    <File Include="ProductDetails.aspx">
+      <publishTime>09/02/2021 14:24:33</publishTime>
+    </File>
+    <File Include="RegisterPage.aspx">
+      <publishTime>08/30/2021 12:36:08</publishTime>
+    </File>
+    <File Include="RegisterPage.css">
+      <publishTime>08/29/2021 10:20:55</publishTime>
+    </File>
+    <File Include="script.js">
+      <publishTime>09/02/2021 11:02:48</publishTime>
+    </File>
+    <File Include="Tv.aspx">
+      <publishTime>09/01/2021 19:21:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/05/2021 14:56:40</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

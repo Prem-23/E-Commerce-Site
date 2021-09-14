@@ -1,0 +1,24 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.login{
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.admin{
+    font-size: 35px;
+    color:#262626;
+}
+span{
+    color:royalblue;
+}
