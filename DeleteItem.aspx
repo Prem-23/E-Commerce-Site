@@ -1,4 +1,4 @@
-﻿<%@ Page Title="E-Commerce Site | Shopping Cart-Delete Item" Language="C#" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeFile="DeleteItem.aspx.cs" Inherits="E_Commerce_Site.DeleteItem" %>
+﻿<%@ Page Title="E-Commerce Site | Shopping Cart-Delete Item" Language="C#" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeBehind="DeleteItem.aspx.cs" Inherits="E_Commerce_Site.DeleteItem" %>
 <%@ MasterType VirtualPath="~/index.Master" %>
 <asp:Content ID="Content5" ContentPlaceHolderID="head3" runat="server">
     <link rel="stylesheet" href="AdminEnters.css" type="text/css" />

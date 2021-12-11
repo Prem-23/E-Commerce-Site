@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Shopping Cart" Language="C#" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeFile="Cart.aspx.cs" Inherits="E_Commerce_Site.Cart" %>
+﻿<%@ Page Title="Shopping Cart" Language="C#" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeBehind="Cart.aspx.cs" Inherits="E_Commerce_Site.Cart" %>
 <%@ MasterType VirtualPath="~/index.Master" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head3" runat="server">
     <link rel="stylesheet" href="Cart.css" type="text/css" />

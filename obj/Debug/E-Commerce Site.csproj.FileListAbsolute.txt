@@ -1,9 +1,9 @@
 F:\Programs\c#\E-Commerce Site\bin\E-Commerce Site.dll.config
 F:\Programs\c#\E-Commerce Site\bin\E-Commerce Site.dll
 F:\Programs\c#\E-Commerce Site\bin\E-Commerce Site.pdb
-F:\Programs\c#\E-Commerce Site\obj\Debug\E-Commerce Site.csproj.AssemblyReference.cache
+F:\Programs\c#\E-Commerce Site\bin\DataAccess.dll
 F:\Programs\c#\E-Commerce Site\obj\Debug\E-Commerce Site.csproj.CoreCompileInputs.cache
 F:\Programs\c#\E-Commerce Site\obj\Debug\E-Commerce Site.csproj.CopyComplete
 F:\Programs\c#\E-Commerce Site\obj\Debug\E-Commerce Site.dll
 F:\Programs\c#\E-Commerce Site\obj\Debug\E-Commerce Site.pdb
-F:\Programs\c#\E-Commerce Site\bin\DataAccess.dll
+F:\Programs\c#\E-Commerce Site\obj\Debug\E-Commerce Site.csproj.AssemblyReference.cache

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Product Details Page" Language="C#" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeFile="ProductDetails.aspx.cs" Inherits="E_Commerce_Site.ProductDetails" %>
+﻿<%@ Page Title="Product Details Page" Language="C#" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeBehind="ProductDetails.aspx.cs" Inherits="E_Commerce_Site.ProductDetails" %>
 <%@ MasterType VirtualPath="~/index.Master" %>
 <asp:Content ID="Content5" ContentPlaceHolderID="head3" runat="server">
     <style>

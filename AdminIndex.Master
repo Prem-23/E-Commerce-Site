@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminIndex.master.cs" Inherits="E_Commerce_Site.AdminIndex" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminIndex.master.cs" Inherits="E_Commerce_Site.AdminIndex" %>
 
 <!DOCTYPE html>
 

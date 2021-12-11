@@ -1,4 +1,4 @@
-﻿<%@ Page Title="ECommerce Site - Home" Language="C#" EnableEventValidation="false" ValidateRequest="false" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="E_Commerce_Site.Home" %>
+﻿<%@ Page Title="ECommerce Site - Home" Language="C#" EnableEventValidation="false" ValidateRequest="false" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="E_Commerce_Site.Home" %>
 <%@ MasterType VirtualPath="~/index.Master" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="Home.css" type="text/css" />

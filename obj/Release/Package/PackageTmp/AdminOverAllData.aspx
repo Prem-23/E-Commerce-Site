@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Admin-OverAll Products Page" Language="C#" MasterPageFile="~/AdminIndex.Master" AutoEventWireup="true" CodeFile="AdminOverAllData.aspx.cs" Inherits="E_Commerce_Site.AdminOverAllData" %>
+﻿<%@ Page Title="Admin-OverAll Products Page" Language="C#" MasterPageFile="~/AdminIndex.Master" AutoEventWireup="true" CodeBehind="AdminOverAllData.aspx.cs" Inherits="E_Commerce_Site.AdminOverAllData" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         .sec{

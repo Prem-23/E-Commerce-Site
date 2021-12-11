@@ -1,4 +1,4 @@
-﻿<%@ Page Title="ECommerce Site - LAPTOP" Language="C#" EnableEventValidation="false" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeFile="Laptop.aspx.cs" Inherits="E_Commerce_Site.Laptop" %>
+﻿<%@ Page Title="ECommerce Site - LAPTOP" Language="C#" EnableEventValidation="false" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeBehind="Laptop.aspx.cs" Inherits="E_Commerce_Site.Laptop" %>
 <%@ MasterType VirtualPath="~/index.Master" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

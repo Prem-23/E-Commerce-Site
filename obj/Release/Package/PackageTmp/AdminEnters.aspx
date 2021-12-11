@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Admin-Add Products Page" Language="C#" MasterPageFile="~/AdminIndex.Master" AutoEventWireup="true" CodeFile="AdminEnters.aspx.cs" Inherits="E_Commerce_Site.AdminEnters" %>
+﻿<%@ Page Title="Admin-Add Products Page" Language="C#" MasterPageFile="~/AdminIndex.Master" AutoEventWireup="true" CodeBehind="AdminEnters.aspx.cs" Inherits="E_Commerce_Site.AdminEnters" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="AdminEnters.css" type="text/css" />
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="ECommerce Site - MOBILE" Language="C#" EnableEventValidation="false" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeFile="Mobile.aspx.cs" Inherits="E_Commerce_Site.Mobile" %>
+﻿<%@ Page Title="ECommerce Site - MOBILE" Language="C#" EnableEventValidation="false" MasterPageFile="~/index.Master" AutoEventWireup="true" CodeBehind="Mobile.aspx.cs" Inherits="E_Commerce_Site.Mobile" %>
 <%@ MasterType VirtualPath="~/index.Master" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

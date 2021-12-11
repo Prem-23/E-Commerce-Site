@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
 
@@ -40,7 +41,7 @@ namespace E_Commerce_Site
             string Quantity = TextBox1.Text;
             string Added_Date = DateTime.Today.ToString("yyddMM");
 
-            DA.addProductItemToCart(UID, ProductID, Quantity, Added_Date);
+            DA.addProductItemToCart(UID, ProductID, Quantity/*, Added_Date*/);
             Response.Redirect("./Cart.aspx");
         }
     }

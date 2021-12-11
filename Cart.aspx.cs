@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Configuration;
 using System.Data;
 using System.IO;
 
@@ -12,7 +13,7 @@ namespace E_Commerce_Site
 {
     public partial class Cart : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("Data Source=Premkumar;DataBase=ECommerceDataBase;Integrated Security=true");
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["User"] != null && Session["userID"] != null)
@@ -34,7 +35,7 @@ namespace E_Commerce_Site
         }
 
 
-        public void addProductItemToCart(string UID, string ProductID, string Quantity, string Added_Date)
+        public void addProductItemToCart(string UID, string ProductID, string Quantity)//, string Added_Date
         {
             con.Open();
             SqlCommand cmd = new SqlCommand("addProductItemToCart", con);
@@ -42,7 +43,7 @@ namespace E_Commerce_Site
             cmd.Parameters.AddWithValue("@UID", UID);
             cmd.Parameters.AddWithValue("@ProductID", ProductID);
             cmd.Parameters.AddWithValue("@Quantity ", Quantity);
-            cmd.Parameters.AddWithValue("@Added_Date ", Added_Date);
+            //cmd.Parameters.AddWithValue("@Added_Date ", Added_Date);
             cmd.ExecuteNonQuery();
             con.Close();
         }

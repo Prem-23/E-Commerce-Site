@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Admin-Delete Product Page" Language="C#" MasterPageFile="~/AdminIndex.Master" AutoEventWireup="true" CodeFile="AdminDelete.aspx.cs" Inherits="E_Commerce_Site.AdminDelete" %>
+﻿<%@ Page Title="Admin-Delete Product Page" Language="C#" MasterPageFile="~/AdminIndex.Master" AutoEventWireup="true" CodeBehind="AdminDelete.aspx.cs" Inherits="E_Commerce_Site.AdminDelete" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="AdminEnters.css" type="text/css" />
     <style>
